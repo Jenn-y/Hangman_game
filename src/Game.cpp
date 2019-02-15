@@ -55,10 +55,10 @@ void Game::printRules(){
                           |    game is over - the "host" wins. On the other  |
                           |    hand, if the player(s) guess(es) the secret   |
                           |    word - win goes to the player(s)              |
-                          | 6. The player(s) may, at any time, attempt to    |
-                          |    guess the whole word. If it is a wrong guess, |
-                          |    it adds up to the total number of wrong       |
-                          |    guesses                                       |
+                          | 6. The player(s) may attempt to guess the whole  |
+                          |    word after two correct letter guesses. If it  |
+                          |    is a wrong guess, it adds up to the total     |
+                          |    number of wrong guesses                       |
                           |__________________________________________________|
                     )" << "\nPress 1 to return to the menu, and 2 to exit the game --> ";
     int option;
